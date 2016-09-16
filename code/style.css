@@ -1,0 +1,54 @@
+body {
+	background-color: pink;
+	position: relative;
+	font-family: "Helvetica", sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+main {
+
+}
+
+#player1 {
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin: 10px;
+	float: left;
+	top: 100px;
+}
+
+#player2 {
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin: 10px;
+	float: left;
+	top: 300px;
+}
+
+#finishLine {
+	width: 2%;
+	height: 225px;
+	display: inline-block;
+	position: absolute;
+	left: 600px;
+	top: 100px;
+	border: 1px solid black;
+	text-align: center;
+
+}
+
+#player1message {
+	visibility: hidden;
+}
+
+#player2message {
+	visibility: hidden;
+}
